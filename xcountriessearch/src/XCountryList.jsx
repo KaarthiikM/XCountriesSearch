@@ -69,7 +69,7 @@ const XCountryList = () => {
             />
     <div style={containerStyle}>
         {filteredCountries.map((country)=>(
-            <div style={cardStyle} key={country.cca3}>
+            <div style={cardStyle} key={country.cca3} className="countryCard">
                 <img src={country.flags.png} alt={`Flag of {country.name.common}`} style={imageStyle}/>
             <h2>{country.name.common}</h2>
             </div>
