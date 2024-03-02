@@ -59,7 +59,7 @@ const XCountryList = () => {
       }
 
   return (
-    <div>
+    <div className="container">
             <input 
             type='text' 
             placeholder='search for countries' 
